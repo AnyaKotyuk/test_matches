@@ -160,7 +160,7 @@ class Matches{
                 `homeTeam` varchar(50) NOT NULL,
                 `awayTeamID` varchar(50) NOT NULL,
                 `homeTeamID` varchar(50) NOT NULL,
-                `statiumID` int(11) NOT NULL,
+                `stadiumID` int(11) NOT NULL,
                 PRIMARY KEY(`id`)
         )";
 

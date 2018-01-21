@@ -10,6 +10,7 @@ class DB{
     private $USER = 'matches';
     private $PASSWORD = 'matches';
     private $DATABASE = 'matches';
+    private $HOST = 'localhost';
     private $connection;
 
 
@@ -18,7 +19,7 @@ class DB{
      */
     private function __construct()
     {
-        $this->connection = mysqli_connect('localhost', $this->USER, $this->PASSWORD, $this->DATABASE) or die('Connection error');
+        $this->connection = mysqli_connect($this->HOST, $this->USER, $this->PASSWORD, $this->DATABASE) or die('Connection error');
     }
 
 
