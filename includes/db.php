@@ -1,6 +1,9 @@
 <?php
 
-
+/**
+ * Class DB
+ * Work with database easier
+ */
 class DB{
 
     private static $instance = null;
@@ -45,6 +48,5 @@ class DB{
         if (!$res) die ('Query error!');
         return $res;
     }
-
 
 }
