@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+table{
+    margin: 0 auto;
+    border: solid 1px #999;
+    border-collapse: collapse;
+}
+tr:nth-child(2n){
+    background-color: #eee;
+}
+th{
+    background-color: #FF6262;
+    color: #fff;
+}
+td, th{
+    border-bottom: solid 1px #ccc;
+    padding: 4px 15px;
+}
+td:nth-child(2), th:nth-child(2), td:nth-child(3), th:nth-child(3){
+    text-align: center;
+}
+td:last-child, th:last-child{
+    text-align: right;
+}
